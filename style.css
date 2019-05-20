@@ -39,7 +39,6 @@ body {
     margin-top: 60px;
     font-family: 'Taviraj', serif;
 }
-
 .footer {
   position: absolute;
   bottom: 0;
@@ -49,18 +48,12 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
-h1 {
-    font-family: "Great Vibes", cursive;
-}
-
 h2 {
-    font-family: "Playfair Display SC", serif;
     color: #FF69B4;
 }
 
 h3 {
     font-size: 30px;
-    font-family: "Bangers", cursive;
     margin-top: 50px;
     margin-bottom: 30px;
 }
@@ -69,10 +62,36 @@ h4 {
     color: #FF69B4;
     font-size: 20px;
     font-weight: bold;
-    font-family: "Cinzel", serif;
     margin-top: 30px;
 }
 
 .highlight {
     font-weight: bold;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.padding {
+    padding-top: 10%;
+    padding-right: 10%;
+}
+
+small {
+    font-weight: 300;
+    font-size: 75%;
+    color: darkblue;
 }
