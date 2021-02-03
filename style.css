@@ -4,6 +4,12 @@ html {
   font-size: 14px;
 }
 
+@media (max-width: 767px) {
+  .padding {
+    padding-top: 10%;
+  }
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -86,7 +92,6 @@ img {
 }
 
 .padding {
-    padding-top: 10%;
     padding-right: 10%;
 }
 
